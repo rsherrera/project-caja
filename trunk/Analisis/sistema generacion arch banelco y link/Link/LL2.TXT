@@ -1,0 +1,21 @@
+143001  3   2724       1719620121219DEUDA JUDICIAL                                    
+143001  2   5976       1745420121219APORTE ATRASADO                                   
+143001  2   3695       2007320121219APORTE ATRASADO                                   
+143001  2   4270       2150620121219APORTE ATRASADO                                   
+143001  2   5925       2411820121219APORTE ATRASADO                                   
+143001  3   3992       1488820121219DEUDA JUDICIAL                                    
+143001  3   3992       1479220121219DEUDA JUDICIAL                                    
+143001 12   3824       3663120121219APORTE ACTUAL Y ATRASADO                          
+143001 12   5785       3698320121219APORTE ACTUAL Y ATRASADO                          
+143001 12   3718       3894620121219APORTE ACTUAL Y ATRASADO                          
+143001 12   4404       3904320121219APORTE ACTUAL Y ATRASADO                          
+143001 12   4925       3904320121219APORTE ACTUAL Y ATRASADO                          
+143001  4   3917       3887120121219DEUDA POR PRESTAMO                                
+143001 12   5827       3948020121219APORTE ACTUAL Y ATRASADO                          
+143001 12   4786       3982120121219APORTE ACTUAL Y ATRASADO                          
+143001 12   5469       3999520121219APORTE ACTUAL Y ATRASADO                          
+143001 12   3065       3999520121219APORTE ACTUAL Y ATRASADO                          
+143001 12   3526       4005220121219APORTE ACTUAL Y ATRASADO                          
+143001 12   4976       4005220121219APORTE ACTUAL Y ATRASADO                          
+143001 12   2506       4016820121219APORTE ACTUAL Y ATRASADO                          
+

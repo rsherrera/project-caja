@@ -6,5 +6,6 @@ where NIDSocio = '6803'
 1. Luego de un reingreso, el afiliado tiene nuevo FEcha Alta? Su fecha alta sera diferenta a la fecha alta de Ingreso por primera vez?
 2. COndicion para no dar de baja un afiliado, cuales son?
 3. Como pasa un afiliado a ser eximido?
+4. Pedir valores de tasa de interes.
 
 

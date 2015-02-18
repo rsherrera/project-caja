@@ -1,0 +1,71 @@
+<mockup version="1.0" skin="sketch" measuredW="1078" measuredH="466" mockupW="768" mockupH="434">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="310" y="32" w="768" h="434" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+        <topheight>61</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="310" y="47" w="214" h="37" measuredW="191" measuredH="40" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>CIP%20SAN%20JUAN</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::HRule" x="332" y="140" w="731" h="5" measuredW="100" measuredH="5" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="332" y="115" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <text>Iniciar%20Sesi%F3n</text>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Button" x="791" y="366" w="-1" h="-1" measuredW="109" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Iniciar%20Sesi%F3n</text>
+      </controlProperties>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::Label" x="588" y="197" w="-1" h="-1" measuredW="123" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nombre%20de%20usuario</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::FieldSet" x="501" y="159" w="398" h="199" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <text>Informaci%F3n%20de%20cuenta</text>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::TextInput" x="588" y="223" w="220" h="29" measuredW="79" measuredH="29" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::Label" x="588" y="258" w="-1" h="-1" measuredW="74" measuredH="25" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Contrase%F1a</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::TextInput" x="588" y="284" w="220" h="29" measuredW="79" measuredH="29" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::Label" x="596" y="224" w="-1" h="-1" measuredW="89" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <text>administrador</text>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::Label" x="595" y="289" w="-1" h="-1" measuredW="83" measuredH="25" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <text>***********</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

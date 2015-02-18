@@ -1,0 +1,100 @@
+<mockup version="1.0" skin="sketch" measuredW="1028" measuredH="473" mockupW="768" mockupH="453">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="260" y="20" w="768" h="453" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+        <topheight>61</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="260" y="29" w="252" h="37" measuredW="154" measuredH="33" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>CIP%20San%20Juan</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="260" y="108" w="768" h="5" measuredW="100" measuredH="5" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="923" y="26" w="104" h="25" measuredW="94" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>Rodrigo%20Herrera</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="828" y="25" w="97" h="25" measuredW="90" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>%28Administrador%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::LinkBar" x="931" y="43" w="-1" h="-1" measuredW="76" measuredH="22" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Iniciar%26bm%3BIniciar.bmml%26bm%3BIniciar.bmml%26bm%3BIniciar.bmml%2C%2CLOGIN%26bm%3BLOGIN.bmml%26bm%3BLOGIN.bmml%26bm%3BLOGIN.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22671%2C23%2C710%2C45%22%20href%3D%22Iniciar.bmml%22%20alt%3D%22Iniciar%22%20id%3D%225_0%22/%3E%0A</map>
+        <text>%20Salir</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::ButtonBar" x="266" y="82" w="-1" h="-1" measuredW="623" measuredH="28" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>1</selectedIndex>
+        <text>Afiliados%2C%20Aportes%2C%20Cuotas%2C%20Pr%E9stamos%2C%20Deudas%2C%20Administraci%F3n%2C%20Seguridad</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::FieldSet" x="272" y="127" w="735" h="306" measuredW="200" measuredH="170" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>15658734</color>
+        <text>Emisi%F3n%20Masiva</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="728" y="156" w="132" h="25" measuredW="122" measuredH="28" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Emisi%F3n%20Masiva</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="620" y="156" w="95" h="23" measuredW="85" measuredH="26" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <size>13</size>
+        <state>disabled</state>
+        <text>Marzo%2C%202015</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="422" y="158" w="193" h="25" measuredW="190" measuredH="22" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Mes%20y%20A%F1o%20del%20Trimestre%20actual%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="697" y="27" w="-1" h="-1" measuredW="125" measuredH="17" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>13369344</color>
+        <size>9</size>
+        <text>Hoy%20es%204%20de%20Marzo%20de%202015</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="__group__" x="519" y="196" w="218" h="137" measuredW="218" measuredH="137" zOrder="12" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="218" h="137" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="16">
+          <controlProperties>
+            <close>true</close>
+            <dragger>true</dragger>
+            <text>Emisi%F3n%20Masiva</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="37" y="42" w="-1" h="-1" measuredW="141" measuredH="22" zOrder="1" locked="false" isInGroup="16">
+          <controlProperties>
+            <text>Finaliz%F3%20correctamente.</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="82" y="79" w="-1" h="-1" measuredW="54" measuredH="28" zOrder="2" locked="false" isInGroup="16">
+          <controlProperties>
+            <href>EmisionMasivaInactiva%26bm%3BEmisionMasivaInactiva.bmml%26bm%3BEmisionMasivaInactiva.bmml%26bm%3BEmisionMasivaInactiva.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22341%2C255%2C395%2C283%22%20href%3D%22EmisionMasivaInactiva.bmml%22%20alt%3D%22EmisionMasivaInactiva%22%20id%3D%222%22/%3E</map>
+            <text>Salir</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

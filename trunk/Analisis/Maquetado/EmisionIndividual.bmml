@@ -1,0 +1,58 @@
+<mockup version="1.0" skin="sketch" measuredW="939" measuredH="311" mockupW="576" mockupH="172">
+  <controls>
+    <control controlID="2" controlTypeID="__group__" x="363" y="139" w="290" h="172" measuredW="290" measuredH="172" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="290" h="172" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="2">
+          <controlProperties>
+            <close>true</close>
+            <customData>d</customData>
+            <customID>d</customID>
+            <dragger>true</dragger>
+            <text>Emisi%F3n%20Individual</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="25" y="38" w="233" h="43" measuredW="233" measuredH="43" zOrder="1" locked="false" isInGroup="2">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="6" y="0" w="227" h="23" measuredW="217" measuredH="22" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>A%20continuaci%F3n%20se%20generar%E1n%20cuotas%20</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="0" y="20" w="231" h="23" measuredW="226" measuredH="22" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>a%20partir%20de%20la%20fecha%20de%20alta%20del%20Afiliado.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="476" y="246" w="-1" h="-1" measuredW="64" measuredH="28" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Iniciar</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="__group__" x="721" y="156" w="218" h="137" measuredW="218" measuredH="137" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="218" h="137" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="4">
+          <controlProperties>
+            <close>true</close>
+            <dragger>true</dragger>
+            <text>Emisi%F3n%20Individual</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="37" y="42" w="-1" h="-1" measuredW="141" measuredH="22" zOrder="1" locked="false" isInGroup="4">
+          <controlProperties>
+            <text>Finaliz%F3%20correctamente.</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="82" y="79" w="-1" h="-1" measuredW="54" measuredH="28" zOrder="2" locked="false" isInGroup="4">
+          <controlProperties>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22341%2C255%2C395%2C283%22%20href%3D%22EmisionMasivaInactiva.bmml%22%20alt%3D%22EmisionMasivaInactiva%22%20id%3D%222%22/%3E</map>
+            <text>Salir</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

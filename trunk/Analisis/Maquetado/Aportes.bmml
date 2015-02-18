@@ -1,0 +1,173 @@
+<mockup version="1.0" skin="sketch" measuredW="1028" measuredH="543" mockupW="768" mockupH="523">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="260" y="20" w="768" h="523" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+        <topheight>61</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="260" y="29" w="252" h="37" measuredW="154" measuredH="33" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>CIP%20San%20Juan</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="260" y="108" w="768" h="5" measuredW="100" measuredH="5" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="__group__" x="538" y="485" w="200" h="28" measuredW="200" measuredH="28" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="98" measuredH="28" zOrder="0" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>Categorizar</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="119" y="0" w="-1" h="-1" measuredW="81" measuredH="28" zOrder="1" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>Cancelar</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="923" y="26" w="104" h="25" measuredW="94" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>Rodrigo%20Herrera</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="828" y="25" w="97" h="25" measuredW="90" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>%28Administrador%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::LinkBar" x="931" y="43" w="-1" h="-1" measuredW="76" measuredH="22" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Iniciar%26bm%3BIniciar.bmml%26bm%3BIniciar.bmml%26bm%3BIniciar.bmml%2C%2CLOGIN%26bm%3BLOGIN.bmml%26bm%3BLOGIN.bmml%26bm%3BLOGIN.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22671%2C23%2C710%2C45%22%20href%3D%22Iniciar.bmml%22%20alt%3D%22Iniciar%22%20id%3D%2213_0%22/%3E%0A</map>
+        <text>%20Salir</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::ButtonBar" x="266" y="82" w="-1" h="-1" measuredW="623" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>1</selectedIndex>
+        <text>Afiliados%2C%20Aportes%2C%20Cuotas%2C%20Pr%E9stamos%2C%20Deudas%2C%20Administraci%F3n%2C%20Seguridad</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::FieldSet" x="272" y="127" w="494" h="66" measuredW="200" measuredH="170" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>15658734</color>
+        <text>Cambio%20de%20Categor%EDas</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::DataGrid" x="269" y="219" w="748" h="254" measuredW="535" measuredH="196" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <alternateRowColor>16777215</alternateRowColor>
+        <borderStyle>square</borderStyle>
+        <color>15134199</color>
+        <hasHeader>true</hasHeader>
+        <hLines>false</hLines>
+        <rowHeight>16</rowHeight>
+        <selectedIndex>-1</selectedIndex>
+        <text>N%BA%20Afiliado.%2CN%BA%20Matr%EDcula%2CApellido%20y%20Nombre%2CDocumento%2CProfesi%F3n%2CFecha%20T%EDtulo%0A1942%2C%20234%2C%20Nebro%20Silva%2C%2028767811%2C%20Psic%F3logo%2C%2004/01/2010%0A1209%2C%20098%2C%20Pereyra%20Juan%2C%2021099000%2C%20Psic%F3logo%2C%2021/01/2010%0A1900%2C%20232%2C%20Lopez%20Luis%2C%2010880121%2C%20Psic%F3logo%2C%2029/01/2010%0A1782%2C%20254%2C%20Luna%20Maria%2C%2011309823%2C%20Psic%F3logo%2C%203/02/2010%0A1090%2C%20672%2C%20Moreno%20Fabio%2C%2011097888%2C%20Psic%F3logo%2C%2016/02/2010%0A1092%2C%20009%2C%20Moya%20Juan%2C%2021221923%2C%20Psic%F3logo%2C%2005/03/2010%0A1432%2C%20872%2C%20Sosa%20Luis%2C%2010539089%2C%20Psic%F3logo%2C%2016/03/2010%0A1435%2C%20121%2C%20Neira%20Laura%2C%2014901000%2C%20Psic%F3logo%2C%2019/03/2010%0A1672%2C%20241%2C%20Morales%20Natalia%2C%2017989233%2C%20Psic%F3logo%2C%2031/03/2010</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+        <vLines>false</vLines>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="272" y="197" w="310" h="25" measuredW="307" measuredH="22" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Listado%20Afiliados%20Categor%EDa%201%20%28Categor%EDa%20Autom%E1tica%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Button" x="625" y="150" w="132" h="25" measuredW="143" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Consultar%20Afiliados</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="287" y="151" w="-1" h="-1" measuredW="75" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <size>12</size>
+        <text>Fecha%20T%EDtulo%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::TextInput" x="417" y="150" w="66" h="23" measuredW="67" measuredH="23" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <state>disabled</state>
+        <text>01/01/2010</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::TextInput" x="538" y="150" w="66" h="23" measuredW="67" measuredH="23" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <state>disabled</state>
+        <text>31/03/2010</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="375" y="152" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <size>12</size>
+        <text>Desde</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="499" y="152" w="-1" h="-1" measuredW="38" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <size>12</size>
+        <text>Hasta</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="__group__" x="499" y="260" w="290" h="172" measuredW="290" measuredH="172" zOrder="17" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="0" y="0" w="290" h="172" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="83">
+          <controlProperties>
+            <close>true</close>
+            <customData>d</customData>
+            <customID>d</customID>
+            <dragger>true</dragger>
+            <text>Confirmar%20Categorizaci%F3n</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="39" y="36" w="212" h="67" measuredW="212" measuredH="67" zOrder="1" locked="false" isInGroup="83">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="209" h="23" measuredW="206" measuredH="22" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Usted%20cambiar%E1%20de%20Categor%EDa%201%20a%202</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="48" y="45" w="-1" h="-1" measuredW="117" measuredH="22" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>%BFConfirma%20cambio%3F</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="2" y="20" w="210" h="23" measuredW="201" measuredH="22" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>los%20Afiliados%20previamente%20listados.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="74" y="114" w="147" h="28" measuredW="147" measuredH="28" zOrder="2" locked="false" isInGroup="83">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="67" measuredH="28" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>11</size>
+                <text>Aceptar</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="75" y="0" w="-1" h="-1" measuredW="72" measuredH="28" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>11</size>
+                <text>Cancelar</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

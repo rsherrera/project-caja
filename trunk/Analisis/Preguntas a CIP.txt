@@ -4,8 +4,14 @@ where NIDSocio = '6803'
 
 
 1. Luego de un reingreso, el afiliado tiene nuevo FEcha Alta? Su fecha alta sera diferenta a la fecha alta de Ingreso por primera vez?
-2. COndicion para no dar de baja un afiliado, cuales son?
-3. Como pasa un afiliado a ser eximido?
+2. COndicion para no dar de baja un afiliado, cuales son? NO hay
+3. Como pasa un afiliado a ser eximido? De debe mostrar todas las cuotas generadas del afi. El usuario debe elegir aquella cuotas q pasaran a ser eximidas.
+LUego seleccionar una opcion para q estas mimsas pasen a un estado Eximidas (No cobrables) cuando el afiliado pague gastos administrativos (10% de las cuotas)
+
 4. Pedir valores de tasa de interes.
+5. Donde se guardar los valores de refacturaciones relizadas.
+
+Rta:
+
 
 

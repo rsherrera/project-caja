@@ -121,17 +121,28 @@
 
              return true;
          }
+         function editaFila(idx) {
+             document.getElementById('hdf_idxReg').value = idx;
 
+         }
+         function eliminafila() {
+             // alert(document.getElementById('hdf_idxReg').value)
+             if (document.getElementById('hdf_idxReg').value != "" && document.getElementById('hdf_idxReg').value != "-1") {
+                 if (confirm("¿Esta seguro que desea eliminar el Afiliado?")) {
+                     document.getElementById("hdf_elimina").value = "ok"
+                     return true;
+                 }
+                 else {
+                     document.getElementById("hdf_elimina").value = "cancela"
+
+                 }
+             }
+         }
         </script>
     <style type="text/css">
-        .style1
-        {
-            width: 210px;
-        }
-                                
+                                        
         .style24
         {
-            width: 83px;
         }
         
         .style29
@@ -154,22 +165,28 @@
     margin-bottom: 0px;
 }
         
+        .style30
+        {
+            width: 901px;
+        }
+        #grilla_vacia
+        {
+            width: 860px;
+        }
+        
         </style>
 </head>
 <body>
    
     <form id="form2" runat="server"> 
-     
-                                  <asp:HiddenField ID="hdf_tipo" Value="" 
-          runat="server" />
-                                  <asp:HiddenField ID="hdf_fecha" Value="" 
-          runat="server" />
-                                  <asp:HiddenField ID="hdf_mail" Value="" 
-          runat="server" />
+    <asp:HiddenField ID="hdf_elimina" Value=""    runat="server" />
+    <asp:HiddenField ID="hdf_idxReg" runat="server" Value="-1" />
+    <asp:HiddenField ID="hdf_tipo" Value="" runat="server" />
+    <asp:HiddenField ID="hdf_fecha" Value=""  runat="server" />
+    <asp:HiddenField ID="hdf_mail" Value=""   runat="server" />
      
     
-     <asp:ScriptManager ID="ScriptManager1" runat="server"
-        EnableScriptGlobalization="True" EnableScriptLocalization="True" />
+     <asp:ScriptManager ID="ScriptManager1" runat="server"    EnableScriptGlobalization="True" EnableScriptLocalization="True" />
     <asp:Panel ID="pnlFondo" runat="server" CssClass="FondoForm" Width="1334px"  
             Height="586px"> 
             <table style="width:100%; ">
@@ -183,9 +200,9 @@
                                 <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Afiliado"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Aportes"/>
-                          <asp:MenuItem NavigateUrl="~/About.aspx" Text="Cuotas"/>
+                        <asp:MenuItem NavigateUrl="~/Afiliados/frm_Afiliados.aspx" Text="Afiliado"/>
+                        <asp:MenuItem NavigateUrl="~/Afiliados/frm_Aportes.aspx" Text="Aportes" />
+                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="Cuotas"/>
                           <asp:MenuItem NavigateUrl="~/About.aspx" Text="Deudas"/>
                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="Administración"/>
                             <asp:MenuItem NavigateUrl="~/About.aspx" Text="Seguridad"/>
@@ -201,21 +218,23 @@
                                 
                                
                                      </table>
-                                    <table style="height: 140px; width: 1200px;">
-                                       
-          <tr>                                     
-                                            <td >                                            
-                                                <table style=" height: 183px; width: 389px;">
+                                                                               
+                                                <table style="  width: 815px; margin-top:-18px">
                                                     <tr>
                                                         <td >
-                                                         <fieldset class="login" style="  height: 180px;">
+                                                         <fieldset class="login" style="  height: 80px; width: 808px;">
                     <legend>Buscar Afiliado</legend>
-                                                            <table style="width: 878px; height: 118px;">
-                                                                <tr>
-                                                                    <td colspan="5" align="right">
-                                                                        &nbsp;&nbsp; &nbsp;&nbsp;
-                                                                        <img  src="../Imagenes/Nuevo.gif" />
-                                                                        <img  src="../Imagenes/eliminar.gif" />
+                    <table style=" height: 51px; width:787px;">
+                                                
+                                                                 <tr>
+                                                                    <td align="right" colspan="5">
+                                                                       
+                                                                         <asp:ImageButton ID="img_nuevo" runat="server" border="0" 
+                                                                            ImageUrl="../Imagenes/Nuevo.gif" onclick="NVOAfiliado_Click" 
+                                                                            ToolTip=" - Elimina Afiliado - " />
+                                                                       <asp:ImageButton ID="img_ElimiSeleccinados" runat="server" border="0" 
+                                                                            ImageUrl="../Imagenes/eliminar.gif" onclick="img_ElimiSeleccinados_Click" 
+                                                                            ToolTip=" - Elimina Afiliado - " />
                                                                         <img  src="../Imagenes/Modificar.gif" />
                                                                         &nbsp; &nbsp;
                                                                     </td>
@@ -235,92 +254,129 @@
                                                                     </td>
                                                                     <td class="style24">
                                                                         <asp:Label ID="Label45" runat="server" CssClass="Titulolabel" 
-                                                                            Text="Descrición:"></asp:Label>
+                                                                            Text="Descripción:"></asp:Label>
                                                                     </td>
                                                                     <td>
-                                                                        <asp:TextBox ID="txt_descripcion" runat="server" MaxLength="10" Width="120px"></asp:TextBox>
-                                                                        
+                                                                        <asp:TextBox ID="txt_descripcion" runat="server"  Width="200px"></asp:TextBox>
                                                                     </td>
                                                                     <td>
-                                                                        <asp:Button ID="Button2" runat="server" OnClick="btnAceptar_Click" 
+                                                                        <asp:Button ID="Button2" runat="server" OnClick="btnbusca_Click" 
                                                                             Text="Buscar" />
                                                                     </td>
                                                                 </tr>
+                                                              </table> </fieldset>  
+                                                               </td>
+                                                    </tr>
+                                                    </table>
+                                                 <table >
+                                                             <tr>
+                                                                 
+                                                
+                                                                 <td class="style30" >
+                                                                     <div id="grilla_vacia" runat="server">
+                                                                         
+                                
+                                                                         <table id="tabla1" border="1" cellpadding="2" cellspacing="0" rules="all" 
+                                                                             
+                                                                             
+                                                                             
+                                                                             style="color: rgb(0, 33, 66); background-color: White; border: 1px solid rgb(99, 99, 99); font-family: Arial; font-size: 9pt; border-collapse: collapse; width: 851px; height: 36px;">
+                                                                             
+                                    
+                                                                             <tr style="background-color: Silver; border: 1px ridge rgb(99, 99, 99); font-weight: bold;">
+                                                                                 <th scope="col">
+                                                                                     
+                                            
+                                                                                     <a style="color: rgb(0, 33, 66);">N° Afiliado </a>
+                                                                                 </th>
+                                                                                 
+                                        
+                                                                                 <th scope="col">
+                                                                                     <a style="color: rgb(0, 33, 66);">N°  Matricula</a></th>
+                                                                                 <th scope="col">
+                                                                                     <a style="color: rgb(0, 33, 66);">Apellido y Nombre</a></th>
+                                                                                 
+                                        
+                                                                                 <th scope="col">
+                                                                                     <a style="color: rgb(0, 33, 66);">D.U</a></th>
+                                                                                 <th scope="col">
+                                                                                     <a style="color: rgb(0, 33, 66);">Profesión</a></th>
+                                                                                     <th scope="col">
+                                                                                     <a style="color: rgb(0, 33, 66);">Fecha Ult. Alta</a></th>
+                                                                                      <th scope="col">
+                                                                                     <a style="color: rgb(0, 33, 66);">Estado</a></th>
+                                                                             </tr>
+                                                                             
+                                    
+                                                                             <tr style="cursor: default; color: inherit;">
+                                                                                 
+                                        
+                                                                                 <td align="center"  colspan="7">
+                                                                                        <asp:Label ID="lblmsj" runat="server" CssClass="Msj"></asp:Label>
+                                                                    </td>
+                                                                             </tr>
+                                                                         </table>
+                                                                     </div>
+                                                                 </td>
+                                                             </tr>
+                                                         </table>                <table style=" height: 183px; width: 1089px;">
+                                                    
                                                                 <tr>
-                                                                    <td class="style29" colspan="5">
-                                                                    <asp:Panel ID="pnlAlto" runat="server" Height="150px" ScrollBars="Auto" 
+                                                                    <td class="style29" >
+                                                                    <asp:Panel ID="pnlAfi" runat="server" Height="173px" ScrollBars="Auto" 
                         Width="100%">
                                                                         <asp:GridView ID="gv_afiliado" runat="server" AutoGenerateColumns="False" 
-                                                                            BackColor="GhostWhite" Width="807px">
+                                                                            BackColor="GhostWhite" Width="904px"  
+                                                                            OnRowDataBound="gv_afiliado_RowDataBound">
                                                                             <Columns>
-                                                                                 <asp:BoundField DataField="nroafi" HeaderStyle-HorizontalAlign="Left" 
+                                                                                 <asp:BoundField DataField="IdAfiliado" HeaderStyle-HorizontalAlign="Left" 
                                                                                     HeaderText="N° Afiliado">
                                                                                 <ItemStyle HorizontalAlign="Left" Width="390px" />
                                                                                 </asp:BoundField>
-                                                                                <asp:BoundField DataField="matricula" HeaderStyle-HorizontalAlign="Left" 
+                                                                                <asp:BoundField DataField="Matricula" HeaderStyle-HorizontalAlign="Left" 
                                                                                     HeaderText="N° Matricula">
                                                                                 <ItemStyle HorizontalAlign="Left" Width="390px" />
                                                                                 </asp:BoundField>
-                                                                                 <asp:BoundField DataField="nombre" HeaderStyle-HorizontalAlign="Left" 
+                                                                                 <asp:BoundField DataField="Apellido" HeaderStyle-HorizontalAlign="Left" 
                                                                                     HeaderText="Apellido y Nombre">
                                                                                 <ItemStyle HorizontalAlign="Left" Width="390px" />
-                                                                                </asp:BoundField> <asp:BoundField DataField="DU" HeaderStyle-HorizontalAlign="Left" 
+                                                                                </asp:BoundField> <asp:BoundField DataField="Documento" HeaderStyle-HorizontalAlign="Left" 
                                                                                     HeaderText="D.U">
                                                                                 <ItemStyle HorizontalAlign="Left" Width="390px" />
                                                                                 </asp:BoundField> <asp:BoundField DataField="profesion" HeaderStyle-HorizontalAlign="Left" 
                                                                                     HeaderText="Frofesión">
                                                                                 <ItemStyle HorizontalAlign="Left" Width="390px" />
-                                                                                </asp:BoundField> <asp:BoundField DataField="FechaA" HeaderStyle-HorizontalAlign="Left" 
+                                                                                </asp:BoundField> <asp:BoundField DataField="fechaalta" HeaderStyle-HorizontalAlign="Left" 
                                                                                     HeaderText="Fecha Ult. Alta">
                                                                                 <ItemStyle HorizontalAlign="Left" Width="390px" />
                                                                                 </asp:BoundField>
-                                                                                <asp:BoundField DataField="Fecham" HeaderStyle-HorizontalAlign="Left" 
-                                                                                    HeaderText="Fecha Ult. Modif.">
-                                                                                <ItemStyle HorizontalAlign="Left" Width="390px" />
-                                                                                </asp:BoundField>
+                                                                               
+                                                                                     
+                                                                                 <asp:TemplateField>
+                                            <ItemTemplate>
+                                         
+                                                <asp:CheckBox ID="CheckBox1" runat="server" EnableViewState="true" Enabled="false" />
+                                            </ItemTemplate>
+                                            <ItemStyle HorizontalAlign="Center" Width="20px" />
+                                        </asp:TemplateField>
 
 
 
-                                                                                <asp:TemplateField HeaderText="Calificación">
-                                                                                    <ItemTemplate>
-                                                                                        <asp:RadioButtonList ID="RadioButtonList1" runat="server" 
-                                                                                            RepeatDirection="Horizontal" TextAlign="Left" Width="850px">
-                                                                                        </asp:RadioButtonList>
-                                                                                    </ItemTemplate>
-                                                                                    <ItemStyle HorizontalAlign="center" />
-                                                                                </asp:TemplateField>
+                                                                                
                                                                             </Columns>
                                                                             <HeaderStyle CssClass="textoGrilla" />
-                                                                            <RowStyle CssClass="textoGrilla_2" />
+                                                                            <RowStyle CssClass="textoGrilla2" />
                                                                         </asp:GridView>
                                                                    </asp:Panel> </td>
                                                                 </tr>
                                                             </table>
+                                                       
                                                       
-                                                      
-                                                      </fieldset>  </td>
-                                                    </tr>
-                                                    </table>
-                                                  
-                                                   </td></tr>
-                                                    <tr>
-                                                        <td style="text-align: center" >
-                                                            &nbsp;</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="text-align: center; font-family: Arial; font-size: large; color: White;" 
-                                                            class="style1">
-                                                            &nbsp;</td>
-                                                    </tr>
-                                                </table>
+                                                    
+                                                                                                  
+                                                   
                                            
-                                    <table style="width:100%; height: 26px;">
-                                        <tr>
-                                            <td align="center" class="PieForm">
-                                                <asp:Label ID="Label1" runat="server" Activo="True">Copyright 2015 - All Rights reserved</asp:Label>
-                                                &nbsp;</td>
-                                        </tr>
-                                    </table>
+                                    
                                 
                                   </asp:Panel> 
     </form>

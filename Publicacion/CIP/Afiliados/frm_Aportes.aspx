@@ -308,7 +308,7 @@
                                 <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/Afiliados/frm_ABMAfiliadosU.aspx" Text="Afiliado"/>
+                        <asp:MenuItem NavigateUrl="~/Afiliados/frm_Afiliados.aspx" Text="Afiliado"/>
                         <asp:MenuItem NavigateUrl="~/Afiliados/frm_Aportes.aspx" Text="Aportes" />
                           <asp:MenuItem NavigateUrl="~/About.aspx" Text="Cuotas"/>
                           <asp:MenuItem NavigateUrl="~/About.aspx" Text="Deudas"/>
@@ -355,8 +355,10 @@
                                                                     <td>
                                                                         <asp:DropDownList ID="ddl_aporte" runat="server" Width="190px">
                                                                         </asp:DropDownList>
-                                                                        <asp:Button ID="Button2" runat="server" OnClick="btnBuscar_Click" 
+                                                                        <asp:Button ID="btnbusca" runat="server" OnClick="btnBuscar_Click" 
                                                                             Text="Buscar" />
+                                                                        <asp:Button ID="btntodos" runat="server" OnClick="btnTodos_Click" 
+                                                                            Text="Todos" />
                                                                     </td>
                                                                     <td>
                                                                         <asp:ImageButton ID="btnnvo" runat="server" OnClick="btnnvoOpen_Click" 

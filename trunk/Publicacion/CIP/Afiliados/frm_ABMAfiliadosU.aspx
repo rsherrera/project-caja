@@ -544,7 +544,7 @@
                                 <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/Afiliados/frm_ABMAfiliadosU.aspx" Text="Afiliado"/>
+                        <asp:MenuItem NavigateUrl="~/Afiliados/frm_Afiliados.aspx" Text="Afiliado"/>
                         <asp:MenuItem NavigateUrl="~/Afiliados/frm_Aportes.aspx" Text="Aportes" />
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="Cuotas"/>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="Deudas"/>
@@ -563,7 +563,7 @@
                                
                                      </table>
                                     
-                                    <table style=" height: 140px; width: 1200px; margin-top:-30px">
+                                    <table style=" height: 140px; width: 1200px; margin-top:-18px">
                                         <tr>
                                            
                                             <td >
@@ -1007,8 +1007,8 @@
                                                         <td colspan="2" style="text-align: center">
                                                             <asp:Button ID="btnAceptar" runat="server" 
                                                                 OnClick="btnAceptar_Click" Text="Aceptar" />
-                                                            <asp:Button ID="btn_modifica" runat="server" 
-                                                                OnClick="btnactualiza_Click" Text="Cancelar" />
+                                                            <asp:Button ID="btn_cancela" runat="server" 
+                                                                OnClick="btncancela_Click" Text="Cancelar" />
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -2502,7 +2502,7 @@
                                                                     <tr>
                                                                         <td class="style33" colspan="5">
                                                                               <asp:Button ID="btnaceptardCG"  runat="server" Text="Aceptar" OnClick="btnDCG_Click"/>
-                                                                            <asp:Button ID="btncancelardcG" runat="server" Text="Cancelar" />
+                                                                            <asp:Button ID="btncancelardcG" runat="server" Text="Cancelar"  />
                                                                   
                                                                         </td>
                                                                     </tr>

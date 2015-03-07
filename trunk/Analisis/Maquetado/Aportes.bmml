@@ -53,7 +53,7 @@
         <text>Afiliados%2C%20Aportes%2C%20Cuotas%2C%20Pr%E9stamos%2C%20Deudas%2C%20Administraci%F3n%2C%20Seguridad</text>
       </controlProperties>
     </control>
-    <control controlID="57" controlTypeID="com.balsamiq.mockups::FieldSet" x="272" y="127" w="494" h="66" measuredW="200" measuredH="170" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::FieldSet" x="272" y="127" w="745" h="66" measuredW="200" measuredH="170" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>1</backgroundAlpha>
         <color>15658734</color>
@@ -81,40 +81,40 @@
         <text>Listado%20Afiliados%20Categor%EDa%201%20%28Categor%EDa%20Autom%E1tica%29</text>
       </controlProperties>
     </control>
-    <control controlID="62" controlTypeID="com.balsamiq.mockups::Button" x="625" y="150" w="132" h="25" measuredW="143" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Button" x="870" y="147" w="132" h="25" measuredW="143" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Consultar%20Afiliados</text>
       </controlProperties>
     </control>
-    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="287" y="151" w="-1" h="-1" measuredW="75" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="546" y="150" w="-1" h="-1" measuredW="75" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
         <size>12</size>
         <text>Fecha%20T%EDtulo%3A</text>
       </controlProperties>
     </control>
-    <control controlID="72" controlTypeID="com.balsamiq.mockups::TextInput" x="417" y="150" w="66" h="23" measuredW="67" measuredH="23" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::TextInput" x="668" y="149" w="66" h="23" measuredW="67" measuredH="23" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <state>disabled</state>
         <text>01/01/2010</text>
       </controlProperties>
     </control>
-    <control controlID="73" controlTypeID="com.balsamiq.mockups::TextInput" x="538" y="150" w="66" h="23" measuredW="67" measuredH="23" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::TextInput" x="789" y="149" w="66" h="23" measuredW="67" measuredH="23" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <state>disabled</state>
         <text>31/03/2010</text>
       </controlProperties>
     </control>
-    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="375" y="152" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="626" y="151" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
         <size>12</size>
         <text>Desde</text>
       </controlProperties>
     </control>
-    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="499" y="152" w="-1" h="-1" measuredW="38" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="750" y="151" w="-1" h="-1" measuredW="38" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
         <size>12</size>
@@ -168,6 +168,20 @@
           </groupChildrenDescriptors>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::TextInput" x="446" y="148" w="92" h="23" measuredW="85" measuredH="26" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <size>13</size>
+        <state>disabled</state>
+        <text>Marzo%2C%202015</text>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Label" x="288" y="150" w="164" h="25" measuredW="158" measuredH="22" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Mes-A%F1o%20Trimestre%20actual%3A</text>
+      </controlProperties>
     </control>
   </controls>
 </mockup>

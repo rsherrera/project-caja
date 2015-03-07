@@ -2,6 +2,11 @@ SELECT NIDSocio
 FROM "D:\CAJA\Wincaja\Base\socios.DB" 
 where NIDSocio = '6803'
 
+SELECT *
+FROM "D:\CAJA\Wincaja\Base\altasYBajas.DB" 
+where NIDSocio = '6803'
+
+
 
 1. Luego de un reingreso, el afiliado tiene nuevo FEcha Alta? Su fecha alta sera diferenta a la fecha alta de Ingreso por primera vez?
 2. COndicion para no dar de baja un afiliado, cuales son? NO hay
@@ -12,6 +17,13 @@ LUego seleccionar una opcion para q estas mimsas pasen a un estado Eximidas (No 
 5. Donde se guardar los valores de refacturaciones relizadas.
 
 Rta:
+
+26-02
+
+rta preg 5
+
+NO se graba, no se debe grabar.
+
 
 
 

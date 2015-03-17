@@ -49,7 +49,7 @@
     </control>
     <control controlID="49" controlTypeID="com.balsamiq.mockups::ButtonBar" x="266" y="82" w="-1" h="-1" measuredW="623" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <selectedIndex>1</selectedIndex>
+        <selectedIndex>2</selectedIndex>
         <text>Afiliados%2C%20Aportes%2C%20Cuotas%2C%20Pr%E9stamos%2C%20Deudas%2C%20Administraci%F3n%2C%20Seguridad</text>
       </controlProperties>
     </control>
@@ -177,10 +177,10 @@
         <text>Marzo%2C%202015</text>
       </controlProperties>
     </control>
-    <control controlID="92" controlTypeID="com.balsamiq.mockups::Label" x="288" y="150" w="164" h="25" measuredW="158" measuredH="22" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Label" x="288" y="150" w="164" h="25" measuredW="142" measuredH="22" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
-        <text>Mes-A%F1o%20Trimestre%20actual%3A</text>
+        <text>Mes-A%F1o%20Aporte%20actual%3A</text>
       </controlProperties>
     </control>
   </controls>
